@@ -1,0 +1,691 @@
+/* light grey #151515 -- pink #cf1840 -- purple #8c6f83 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif !important;
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2.5rem !important;
+    font-size: 35px !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+}
+
+p {
+    color: #fff;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(images/IMG_8506-black.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.site-logo {
+    margin-right: 100px;
+}
+
+.navbar {
+    padding: 30px 15px !important;
+    display: flex;
+    justify-content: flex-start !important;
+    position: static !important;
+    font-size: 23px;
+}
+
+.navbar-list a {
+    text-decoration: none !important;
+    color: #ffffff !important;
+    background: linear-gradient( to right, rgb(0, 0, 0), rgb(0, 0, 0) ), linear-gradient( to right, rgb(255, 255, 255), rgb(255, 255, 255) );
+    background-size: 0% 0px, 0 1px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+    margin-right: 100px;
+}
+
+.navbar-list a:hover {
+    background-size: 0 1px, 100% 1px;
+    text-decoration: none !important;
+}
+
+.intro {
+    padding-top: 100px;
+}
+
+.intro-align {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 75px !important;
+    color: #fff !important;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 35px !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+}
+
+.intro-button button {
+    color: #fff !important;
+    background-color: #cf1840;
+    border: #cf1840 3px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 16px 30px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 2px 0px #fff, 0px 0px 3px #8c6f83;
+}
+
+.intro-button button:hover {
+    background: none;
+    cursor: pointer !important;
+    transition: 0.4s;
+}
+
+.intro-button button:focus {
+    outline: none !important;
+}
+
+.about-section {
+    background-color: #151515;
+    padding: 50px 0px;
+}
+
+.about-image {
+    width: 285px;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.about-image-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-image-content p {
+    align-self: center;
+    font-size: 18px;
+    color: #8c6f83;
+}
+
+.about-info {
+    padding: 0px 45px;
+    display: grid;
+    align-content: center;
+}
+
+.about-info h3 {
+    margin-bottom: 40px;
+}
+
+.social-banner {
+    background-image: url(images/mixer-blur.jpg);
+    padding: 35px 0px;
+    background-attachment: fixed;
+}
+
+.social-banner h3 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+
+.social-icons a {
+    color: #fff;
+}
+
+.social-icons a:hover {
+    color: #707070;
+    transition: 0.4s;
+}
+
+
+.latest-release-section {
+    background-color: #151515;
+    padding: 50px 0px;
+}
+
+.latest-release {
+    display: flex;
+    justify-content: space-around;
+}
+
+.latest-release-info {
+    padding: 0px 45px;
+}
+
+.latest-release-info p {
+    font-size: 18px;
+    color: #8c6f83;
+}
+
+.latest-release-info h3 {
+    margin-bottom: 2.5rem !important;
+}
+
+.latest-release-button-link button {
+    color: #fff !important;
+    background-color: #cf1840;
+    border: #cf1840 3px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 16px 30px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 2px 0px #fff, 0px 0px 3px #8c6f83;
+}
+
+.latest-release-button-link button:hover {
+    background: none;
+    cursor: pointer !important;
+    transition: 0.4s;
+}
+
+.latest-release-button-link button:focus {
+    outline: none !important;
+}
+
+.latest-release-button {
+    text-align: center;
+}
+
+.music-section {
+    background-image: url(images/IMG_8506-black.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0px;
+}
+
+.music-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.music-card-button-link button {
+    color: #fff !important;
+    background-color: #cf1840;
+    border: #cf1840 3px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 7px 51px;
+    box-shadow: 0px 0px 2px 0px #fff, 0px 0px 3px #8c6f83;
+}
+
+.music-card-button-link button:hover {
+    background: none;
+    cursor: pointer !important;
+    transition: 0.4s;
+}
+
+.music-card-button-link button:focus {
+    outline: none !important;
+}
+
+.music-card-button {
+    padding-top: 18px;
+}
+
+.music-card audio {
+    width: 33%;
+    height: 46px;
+}
+
+.music-card {
+    width: 30%;
+    height: 500px;
+    margin-right: 10px;
+    counter-increment: music-card;
+    border: 1px solid #484848;
+    background-color: #151515;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 10px 20px 10px;
+}
+
+.music-card img {
+    border-radius: 10px;
+    width: 64%;
+    height: auto;
+}
+
+.music-card h4 {
+    color: #fff !important;
+    font-size: 18px !important;
+    padding: 25px 0px;
+}
+
+audio::-webkit-media-controls-timeline-container, audio::-webkit-media-controls-current-time-display, audio::-webkit-media-controls-time-remaining-display, audio::-webkit-media-controls-timeline, audio::-webkit-media-controls-volume-slider-container, audio::-webkit-media-controls-volume-slider, audio::-webkit-media-controls-seek-back-button, audio::-webkit-media-controls-seek-forward-button, audio::-webkit-media-controls-fullscreen-button, audio::-webkit-media-controls-rewind-button, audio::-webkit-media-controls-return-to-realtime-button, audio::-webkit-media-controls-toggle-closed-captions-button, audio::-webkit-media-controls-mute-button {
+    display: none !important;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #6b6b6b;
+}
+
+.subscribe-section {
+    background-color: #151515;
+    padding: 50px 0px;
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe-section p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.subscribe-section input {
+    background: none;
+    border: 1px solid #8c6f83;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+
+.subscribe-input form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-submit {
+    width: 10%;
+}
+
+.subscribe-email {
+    width: 50%;
+}
+
+.upcoming-section {
+    background-image: url(images/IMG_8506-black.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0px;
+}
+
+.upcoming-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.upcoming-card-button-link button {
+    color: #fff !important;
+    background-color: #cf1840;
+    border: #cf1840 3px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 7px 51px;
+    box-shadow: 0px 0px 2px 0px #fff, 0px 0px 3px #8c6f83;
+}
+
+.upcoming-card-button-link button:hover {
+    background: none;
+    cursor: pointer !important;
+    transition: 0.4s;
+}
+
+.upcoming-card-button-link button:focus {
+    outline: none !important;
+}
+
+.upcoming-card audio {
+    width: 33%;
+    height: 46px;
+}
+
+.upcoming-card {
+    width: 30%;
+    height: 500px;
+    margin-right: 10px;
+    counter-increment: upcoming-card;
+    border: 1px solid #484848;
+    background-color: #151515;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px 10px 20px 10px;
+}
+
+.upcoming-card img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.upcoming-card h4 {
+    color: #fff !important;
+    font-size: 18px !important;
+    padding: 25px 0px;
+}
+
+.footer {
+    background-color: #151515;
+    padding: 8px 0px;
+}
+
+.footer-social-icons {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.footer-social-icons a {
+    color: #fff;
+}
+
+.footer-social-icons a:hover {
+    color: #707070;
+    transition: 0.4s;
+}
+
+.copyright-text p {
+    margin-bottom: 0px !important;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+.contact-section {
+    background-color: #151515;
+    padding: 50px 0px;
+}
+
+.contact-section form {
+    display: grid;
+    width: 50%;
+}
+
+.contact-image {
+    width: 35%;
+    height: fit-content;
+    align-self: center;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.contact-section form label {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.contact-section form input {
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid #8c6f83;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-section form textarea {
+    background: none;
+    border: 1px solid #8c6f83;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.form-image {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea {
+    height: 120px;
+}
+
+.form-submit-button {
+    width: 30%;
+    justify-self: center;
+}
+
+@media screen and (max-width: 1028px) {
+    .navbar-list a {
+        margin-right: 40px;
+    }
+    .music-card audio {
+        width: 39%;
+    }
+    .upcoming-card img {
+        width: 64%;
+        height: auto;
+    }
+    .upcoming-card {
+        height: 410px;
+    }
+    .music-card {
+        height: 465px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .music-card audio {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-list {
+        padding-top: 20px;
+    }
+    .about-image {
+        width: 240px;
+    }
+    .latest-release-image {
+        align-self: center;
+    }
+    .latest-release-info {
+        padding: 0px;
+    }
+    .latest-release-button-link button {
+        margin-top: 0px;
+    }
+    .about-info {
+        padding: 0px 20px;
+    }
+    .music-card-button-link button {
+        padding: 5px 26px;
+    }
+    .music-card {
+        height: 400px;
+    }
+    .music-card audio {
+        width: 80%;
+    }
+    .upcoming-card {
+        height: 350px;
+    }
+    .upcoming-card-button-link button {
+        padding: 5px 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        background-image: url(images/IMG_8506-black-portrait.jpg);
+    }
+    .music-section {
+        background-image: url(images/IMG_8506-black-portrait.jpg);
+    }
+    .upcoming-section {
+        background-image: url(images/IMG_8506-black-portrait.jpg);
+    }
+}
+
+@media screen and (max-width: 764px) {
+    .subscribe-section input {
+        margin-right: 10px;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .about-image {
+        align-self: center;
+    }
+    .latest-release {
+        display: inline-block;
+    }
+    .latest-release-image {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .music-grid {
+        display: grid;
+        justify-items: center;
+    }
+    .music-card {
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .music-card img {
+        width: 25%;
+    }
+    .music-card h4 {
+        padding: 12px 0px;
+    }
+    .music-card audio {
+        width: 50%;
+    }
+    .upcoming-grid {
+        display: grid;
+        justify-content: center;
+    }
+    .upcoming-card {
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .upcoming-card h4 {
+        padding: 12px 0px;
+    }
+    .contact-section form {
+        width: 100%;
+    }
+    .contact-image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .about-image {
+        margin-bottom: 20px;
+    }
+    .about-image-content {
+        display: block;
+        text-align: center;
+    }
+    .form-image {
+        padding: 0px 30px;
+    }
+    .about-image-content img {
+        text-align: center;
+    }
+    .about-image-content p {
+        text-align: left;
+    }
+    .about-info h2 {
+        margin-bottom: 10px !important;
+    }
+    .subscribe-section p {
+        margin-bottom: 18px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .latest-release-image img {
+        width: 70%;
+    }
+    .about-info {
+        padding: 0px 15px;
+    }
+    .social-icons {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .copyright-text p {
+        font-size: 10px;
+    }
+    .hero {
+        background-image: url(images/IMG_8506-black-portrait.jpg);
+    }
+    .intro {
+        padding-top: 40px;
+    }
+    .navbar-list {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-height: 780px) {
+    .intro {
+        padding-top: 0px;
+    }
+    .intro-align h1 {
+        font-size: 45px !important;
+    }
+    .intro-button button {
+        font-size: 16px;
+        padding: 5px 11px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .intro {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .intro-align h1 {
+        font-size: 30px !important;
+    }
+    .latest-release {
+        display: grid;
+
+    }
+    .latest-release-button {
+        margin-bottom: 20px;
+    }
+    .latest-release-image {
+        text-align: center;
+    }
+}
+
+@media screen and (max-height: 460px) {
+    .intro-button button {
+        font-size: 13px;
+        padding: 6px 8px;
+        margin-top: 0px;
+    }
+}
