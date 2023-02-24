@@ -464,6 +464,12 @@ audio::-webkit-media-controls-panel {
     justify-self: center;
 }
 
+@media screen and (max-width: 1238px) {
+    .site-logo {
+        margin-right: 0px;
+    }
+}
+
 @media screen and (max-width: 1028px) {
     .navbar-list a {
         margin-right: 40px;
@@ -618,6 +624,12 @@ audio::-webkit-media-controls-panel {
     }
 }
 
+@media screen and (max-width: 425px) {
+    .navbar-list {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .latest-release-image img {
         width: 70%;
@@ -639,10 +651,6 @@ audio::-webkit-media-controls-panel {
     }
     .intro {
         padding-top: 40px;
-    }
-    .navbar-list {
-        display: flex;
-        flex-direction: column;
     }
 }
 
