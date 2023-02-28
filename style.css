@@ -79,6 +79,26 @@ h3 {
     font-weight: 400 !important;
 }
 
+.about-info p a {
+    color: #fff;
+}
+
+.about-info p a:hover {
+    color: #cf1840;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.latest-release-info p a {
+    color: #fff;
+}
+
+.latest-release-info p a:hover {
+    color: #cf1840;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
 .intro-button button {
     color: #fff !important;
     background-color: #cf1840;
