@@ -378,7 +378,7 @@ audio::-webkit-media-controls-panel {
 
 .upcoming-card {
     width: 30%;
-    height: 500px;
+    height: 440px;
     margin-right: 10px;
     counter-increment: upcoming-card;
     border: 1px solid #484848;
